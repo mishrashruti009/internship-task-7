@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="top">
+    <div>
+      <h1>🌤 Weather Dashboard</h1>
+      <div id="greeting"></div>
+      <div id="datetime"></div>
+    </div>
+
+    <div class="search">
+      <input id="cityInput" placeholder="Enter city..." />
+      <button id="searchBtn">Search</button>
+    </div>
+  </div>
+
+  <div id="error"></div>
+
+  <div class="grid">
+    <div id="weather"></div>
+    <div id="news"></div>
+  </div>
+
+</div>
+
+<script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
